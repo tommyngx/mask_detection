@@ -32,12 +32,12 @@ html, body {
 }
 #header ul {
   list-style: none;
-  float: left;
+  float: center;
   padding-left: 10px;
   margin-top: 15px;
 }
 #header ul li {
-  float: left;
+  float: right;
   margin-left: 10px;
   
 }
@@ -50,10 +50,17 @@ html, body {
 
 .title {
   text-align: center
+
+}
+
+.title {
+  font-family: 'Raleway', sans-serif;
+  font-weight: lighter;
 }
 
 #tips {
   color:whitesmoke;
+
 }
 
 #container {
