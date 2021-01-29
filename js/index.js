@@ -106,6 +106,10 @@ function detectImage() {
       ctx.stroke();
       
       ctx.font="10px Raleway";
+      ctx.shadowColor = “#000”
+      ctx.shadowOffsetX = width;
+      ctx.shadowOffsetY = 0;
+      ctx.shadowBlur = blur;
       
       let content = id2class[classID] + " " + score.toFixed(2);
       ctx.fillText(content, bbox[0], bbox[1] < 20 ? bbox[1] + 30 : bbox[1]-5);
