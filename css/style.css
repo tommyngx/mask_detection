@@ -75,6 +75,36 @@ html, body {
   text-align: center;
 }
 
+@media screen and (max-width: 1024px) {
+  #image {
+  width:  900px;
+  }
+  #canvas {
+  width:  900px;
+  }
+}
+
+@media screen and (max-width: 1920px) {
+  #image {
+  width:  1800px;
+  }
+  #canvas {
+  width:  1800px;
+  }
+}
+
+@media screen and (max-width: 1366px) {
+  #image {
+  width:  1200px;
+  }
+  #canvas {
+  width:  1200px;
+  }
+}
+
+
+
+
 @media screen and (max-width: 320px) {
   #image {
   width:  220px;
