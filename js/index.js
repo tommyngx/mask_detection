@@ -106,7 +106,7 @@ function detectImage() {
       ctx.stroke();
       
       ctx.font="10px Raleway";
-      ctx.shadowColor = “#000”
+      ctx.shadowColor = “#000”;
       ctx.shadowBlur = blur;
       
       let content = id2class[classID] + " " + score.toFixed(2);
