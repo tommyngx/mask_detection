@@ -3,8 +3,12 @@ html, body {
   margin: 0;
   padding: 0;
   font-family: 'Raleway', sans-serif;
-  
+  background: #16A085;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #F4D03F, #16A085);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #F4D03F, #16A085); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
+
 
 
 
@@ -49,7 +53,7 @@ html, body {
 }
 
 #tips {
-  color:rosybrown
+  color:whitesmoke;
 }
 
 #container {
@@ -57,7 +61,7 @@ html, body {
   /* height: 500px; */
   padding: 50px;
   font-size: 14px;
-  border-radius: 3px;
+  border-radius: 33px;
   text-align: center;
 }
 
@@ -72,11 +76,11 @@ html, body {
 }
 
 .result-color {
-  color: #A159FC;
+  color: #4e4376;
 }
 
 .green-color {
-  color: #0bcf82;
+  color: #314755;
 }
 
 .highlight {
@@ -97,7 +101,7 @@ html, body {
 #uploader-btn {
   background: #faebd700;
   margin-top: 1em;
-  color: #0bcf81;
+  color: white;
   border: solid 1px #0bcf81;
   padding: .6em 2em;
   line-height: 2;
@@ -108,7 +112,7 @@ html, body {
 }
 
 #uploader-btn:hover {
-  color: white;
+  color: black;
   background-color: #0bcf82;
   border: solid 1px #0bcf82;
   -webkit-transition: all 0.3s ease;

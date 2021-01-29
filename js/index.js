@@ -5,7 +5,7 @@ const dropContainer = document.getElementById('container');
 const warning = document.getElementById('warning');
 const fileInput = document.getElementById('fileUploader');
 
-const id2class = {0:"有口罩", 1:"无口罩"};
+const id2class = {0:"Mask", 1:"No Mask"};
 let model;
 
 function preventDefaults(e) {
