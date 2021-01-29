@@ -75,6 +75,21 @@ html, body {
   text-align: center;
 }
 
+@media screen and (max-width: 320px) {
+  #container {
+  width:  300px;
+}
+
+@media screen and (max-width: 375px) {
+  #container {
+  width:  350px;
+}
+
+@media screen and (max-width: 280px) {
+  #container {
+  width:  250px;
+}
+
 #text-container {
   height: 100px;
   width: 100%;
