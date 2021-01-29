@@ -79,16 +79,25 @@ html, body {
   #container {
   width:  300px;
   }
+  #canvas {
+  width:  300px;
+  }
 }
 
 @media screen and (max-width: 375px) {
   #container {
   width:  350px;
   }
+  #canvas {
+  width:  350px;
+  }
 }
 
 @media screen and (max-width: 280px) {
   #container {
+  width:  250px;
+  }
+  #canvas {
   width:  250px;
   }
 }
