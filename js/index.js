@@ -81,12 +81,15 @@ function clickUploader() {
 
 // Detect faces and masks 
 function detectImage() {
+
+
+
   detect(image).then((results) => {
     canvas.width = image.width;
     canvas.height = image.height;
     ctx = canvas.getContext('2d');
     ctx.clearRect(0, 0, canvas.width, canvas.height);
-    ctx.drawImage(image, 0, 0);
+    ctx.drawImage(image, 0, 0, canvas.width,canvas.height);
     for(bboxInfo of results) {
       bbox = bboxInfo[0];
       classID = bboxInfo[1];
