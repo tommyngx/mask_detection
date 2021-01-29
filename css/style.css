@@ -77,37 +77,37 @@ html, body {
 
 @media screen and (max-width: 1024px) {
   #image {
-  max-width:  900px;
+  max-width:  700px;
   }
   #canvas {
-  max-width:  900px;
+  max-width:  700px;
   }
   #fileUploader {
-  max-width:  900px;
+  max-width:  700px;
   }
 }
 
 @media screen and (max-width: 1920px) {
   #image {
-  max-width:  1800px;
+  max-width:  1600px;
   }
   #canvas {
-  max-width:  1800px;
+  max-width:  1600px;
   }
   #fileUploader {
-  max-width:  1800px;
+  max-width:  1600px;
   }
 }
 
 @media screen and (max-width: 1366px) {
   #image {
-  max-width:  1200px;
+  max-width:  1000px;
   }
   #canvas {
-  max-width:  1200px;
+  max-width:  1000px;
   }
   #fileUploader {
-  max-width:  1200px;
+  max-width:  1000px;
   }
 }
 
