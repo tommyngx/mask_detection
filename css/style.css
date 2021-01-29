@@ -6,6 +6,44 @@ html, body {
   
 }
 
+
+
+#header {
+  background: rgba(255, 255, 255, .5);
+  padding: 1%;
+  overflow: hidden;
+  height: 55px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 85%;
+}
+@media screen and (max-width: 320px) {
+  #header {
+  font-size: 75%;
+}
+}
+
+#header img {
+  float: left;
+  box-shadow: none;
+}
+#header ul {
+  list-style: none;
+  float: left;
+  padding-left: 10px;
+  margin-top: 15px;
+}
+#header ul li {
+  float: left;
+  margin-left: 10px;
+  
+}
+
+
+
+
+
+
+
 .title {
   text-align: center
 }
