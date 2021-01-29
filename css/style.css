@@ -82,6 +82,9 @@ html, body {
   #canvas {
   width:  900px;
   }
+  #fileUploader {
+  width:  900px;
+  }
 }
 
 @media screen and (max-width: 1920px) {
@@ -91,6 +94,9 @@ html, body {
   #canvas {
   width:  1800px;
   }
+  #fileUploader {
+  width:  1800px;
+  }
 }
 
 @media screen and (max-width: 1366px) {
@@ -98,6 +104,9 @@ html, body {
   width:  1200px;
   }
   #canvas {
+  width:  1200px;
+  }
+  #fileUploader {
   width:  1200px;
   }
 }
@@ -112,6 +121,9 @@ html, body {
   #canvas {
   width:  220px;
   }
+  #fileUploader {
+  width:  220px;
+  }
 }
 
 @media screen and (max-width: 375px) {
@@ -121,6 +133,9 @@ html, body {
   #canvas {
   width:  250px;
   }
+  #fileUploader {
+  width:  250px;
+  }
 }
 
 @media screen and (max-width: 280px) {
@@ -128,6 +143,9 @@ html, body {
   width:  180px;
   }
   #canvas {
+  width:  180px;
+  }
+  #fileUploader {
   width:  180px;
   }
 }

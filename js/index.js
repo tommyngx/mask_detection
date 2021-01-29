@@ -79,7 +79,7 @@ function clickUploader() {
   fileInput.click();
 }
 
-// 检测人脸和口罩
+// Detect faces and masks 
 function detectImage() {
   detect(image).then((results) => {
     canvas.width = image.width;
@@ -113,7 +113,7 @@ function detectImage() {
   })
 }
 
-// 初始化函数
+// Initialization function 
 async function setup() {
   await loadModel();
   // Make a detection with the default image
