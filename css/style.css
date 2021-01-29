@@ -85,6 +85,10 @@ html, body {
   #fileUploader {
   max-width:  700px;
   }
+  .result-color{
+  max-width:  700px;
+  }
+
 }
 
 @media screen and (max-width: 1920px) {
@@ -95,6 +99,9 @@ html, body {
   max-width:  1600px;
   }
   #fileUploader {
+  max-width:  1600px;
+  }
+  .result-color{
   max-width:  1600px;
   }
 }
@@ -109,8 +116,27 @@ html, body {
   #fileUploader {
   max-width:  1000px;
   }
+  .result-color{
+  max-width:  1000px;
+  }
 }
 
+
+
+@media screen and (max-width: 420px) {
+  #image {
+  max-width:  320px;
+  }
+  #canvas {
+  max-width:  320px;
+  }
+  #fileUploader {
+  max-width:  320px;
+  }
+  .result-color{
+  max-width:  320px;
+  }
+}
 
 
 
@@ -122,6 +148,9 @@ html, body {
   max-width:  220px;
   }
   #fileUploader {
+  max-width:  220px;
+  }
+  .result-color{
   max-width:  220px;
   }
 }
@@ -136,6 +165,9 @@ html, body {
   #fileUploader {
   max-width:  250px;
   }
+  .result-color{
+  max-width:  250px;
+  }
 }
 
 @media screen and (max-width: 280px) {
@@ -146,6 +178,9 @@ html, body {
   max-width:  180px;
   }
   #fileUploader {
+  max-width:  180px;
+  }
+  .result-color{
   max-width:  180px;
   }
 }
