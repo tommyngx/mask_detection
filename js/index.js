@@ -106,9 +106,7 @@ function detectImage() {
       ctx.stroke();
       
       ctx.font="10px Raleway";
-      ctx.shadowColor = "rgb(190, 190, 190)";
-      ctx.fillStyle = "rgb(255, 0, 0)";
-      
+
       let content = id2class[classID] + " " + score.toFixed(2);
       ctx.fillText(content, bbox[0], bbox[1] < 20 ? bbox[1] + 30 : bbox[1]-5);
   }
