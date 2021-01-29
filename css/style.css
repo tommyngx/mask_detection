@@ -2,7 +2,7 @@
 html, body {
   margin: 0;
   padding: 0;
-  font-family: Apercu;
+  font-family: 'Raleway', sans-serif;
   
 }
 
@@ -57,7 +57,7 @@ html, body {
   /* height: 500px; */
   padding: 50px;
   font-size: 14px;
-  border-radius: 33px;
+  border-radius: 3px;
   text-align: center;
 }
 
@@ -102,7 +102,7 @@ html, body {
   padding: .6em 2em;
   line-height: 2;
   font-size: 12px;
-  font-family: Apercu;
+  font-family: Raleway;
   cursor: pointer;
   border-radius: 10px;
 }
