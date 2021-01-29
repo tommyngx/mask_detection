@@ -23,7 +23,10 @@ html, body {
 @media screen and (max-width: 320px) {
   #header {
   font-size: 75%;
-}
+  }
+  a {
+    height ="10px":
+  }
 }
 
 #header img {
