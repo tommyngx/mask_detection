@@ -157,16 +157,16 @@ html, body {
 
 @media screen and (max-width: 375px) {
   #image {
-  max-width:  200px;
+  max-width:  240px;
   }
   #canvas {
-  max-width:  200px;
+  max-width:  240px;
   }
   #fileUploader {
-  max-width:  200px;
+  max-width:  240px;
   }
   .result-color{
-  max-width:  200px;
+  max-width:  240px;
   }
 }
 
