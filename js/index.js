@@ -95,17 +95,17 @@ function detectImage() {
       ctx.beginPath();
       ctx.lineWidth="4";
       if (classID == 0) {
-          ctx.strokeStyle="green";
-          ctx.fillStyle="green";
+          ctx.strokeStyle="#799F0C";
+          ctx.fillStyle="#799F0C";
       } else {
-          ctx.strokeStyle="red";
-          ctx.fillStyle="red";
+          ctx.strokeStyle="#ee9ca7";
+          ctx.fillStyle="#ee9ca7";
       }
       
       ctx.rect(bbox[0], bbox[1], bbox[2] - bbox[0], bbox[3] - bbox[1]);
       ctx.stroke();
       
-      ctx.font="30px Arial";
+      ctx.font="10px Raleway";
       
       let content = id2class[classID] + " " + score.toFixed(2);
       ctx.fillText(content, bbox[0], bbox[1] < 20 ? bbox[1] + 30 : bbox[1]-5);
