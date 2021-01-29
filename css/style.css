@@ -76,29 +76,29 @@ html, body {
 }
 
 @media screen and (max-width: 320px) {
-  #container {
-  width:  300px;
+  #image {
+  width:  220px;
   }
   #canvas {
-  width:  300px;
+  width:  220px;
   }
 }
 
 @media screen and (max-width: 375px) {
-  #container {
-  width:  350px;
+  #image {
+  width:  250px;
   }
   #canvas {
-  width:  350px;
+  width:  250px;
   }
 }
 
 @media screen and (max-width: 280px) {
-  #container {
-  width:  250px;
+  #image {
+  width:  180px;
   }
   #canvas {
-  width:  250px;
+  width:  180px;
   }
 }
 
