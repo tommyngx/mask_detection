@@ -1,7 +1,10 @@
 # Wearing Mask Detection Project by Tensorflow Js
-# Original Link: [FaceMaskDetection](https://github.com/AIZOOTech/FaceMaskDetection)
+
+## Original Link: [FaceMaskDetection](https://github.com/AIZOOTech/FaceMaskDetection)
 
 Special thank to AIZOOTech for great sourcecode & sharing.
+
+Let's have fun at https://tommy-ngx.github.io/mask_detection/index.html
 
 ## Principle
 This demo is a web demo of face mask detection running in the browser, and it introduces how to deploy the face mask detection model of deep learning to the browser.
@@ -57,4 +60,5 @@ You can click the upload image button on the webpage, or drag the image to the w
 ![Page rendering](/images/result.png) 
 
 Cheers,
+
 Tommy.
