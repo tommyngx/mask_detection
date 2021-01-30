@@ -243,3 +243,20 @@ html, body {
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
+
+
+
+footer {
+  font-family: 'Raleway', sans-serif;
+  padding: 1em 1em;
+  font-size: 100%;
+  font-weight: bolder;
+  color: black
+}
+
+h5 {
+  font-weight: 100;
+  margin: 0.1em 0;
+}
+h5 { font-size: 2.0em; }
+
